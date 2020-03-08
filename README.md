@@ -141,7 +141,6 @@ StartupNotify=true
   * Tast [Ctrl]+X for afslutte derefter [J] for at gemme 
 
 ### FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.AppImage
-
 ```bash
 ~/.local/share/applications/
 nano FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.desktop
@@ -197,6 +196,51 @@ chmod +x Ultimaker_Cura-4.5.0.desktop
 chmod +x FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.desktop
 ```
 * luk Terminal vindue
-### Tilføj Programmerne til Favoritter
+
+## Hent Visual Studio Code & PlatformIO
+### VSC
+* Åbn Firefox
+  * Skriv adressen https://code.visualstudio.com/Download
+    * Vælg Linux .deb - Debian, Ubuntu
+      * Åbn med "Softwareinstallation()standard"
+        * Klik "Installer"
+          * Indtast password
+            * Afslut Installer vindue når installation er færdig
+              * Luk Firefox
+* Klik Favoritter "Vis programmer"
+  * søg efter "v"
+    * Højreklik "Visual Studio ..."
+      * Føj til favoritter
+        * Tryk [ESC] og engan til [ESC]
 * 
 
+
+
+
+# ------------------------------------------
+
+
+
+
+
+## Tilpas Favoritter (DoK)
+* Klik Indstillinger
+  * Vælg Dok
+    * Sæt Ikonstørrelse til 36
+      * Luk indstillinger
+
+#### Fjern programmer fra Favoritter (Dok)
+* Højre-Klik "Mozilla Thunderbird"
+  * Klik "Fjern fra favoritter"
+* Højre-Klik "Rhytmbox"
+  * Klik "Fjern fra favoritter"
+* Højre-Klik "LibreOffice Writer"
+  * Klik "Fjern fra favoritter"
+* Højre-Klik "Ubuntu software"
+  * Klik "Fjern fra favoritter"
+* Højre-Klik "Hjælp"
+  * Klik "Fjern fra favoritter"
+
+#### Fjern programmer fra Favoritter (Dok)
+* Klik "Vis programmer" i favoritter
+  * Søg efter 
