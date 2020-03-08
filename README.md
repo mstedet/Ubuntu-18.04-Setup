@@ -113,7 +113,7 @@ reboot
       * Klik Hjem i Filer
         * Tast [Ctrl]+H for at se skjulte mapper
           * Vælg mappen "~/.local/share/icons/
-            * Ændre navn til "FreeCad.png"
+            * Ændre navn til "FreeCad_0.19.png"
               * klik "Gem"
 ## Opret desktop filer for AppImages filer
 * Åbn Terminal vindue [Ctrl]+[Alt]+T og skriv følgende:
@@ -131,7 +131,7 @@ Name[da_DK]=Ultimaker_Cura-4.5.0.desktop
 GenericName=3D Slicer Software for 3D Printers
 GenericName[da_DK]=3D Slicer Software
 Comment=Ultimaker_Cura-4.5.0
-Icon=Cura.png
+Icon=Ultimaker_Cura.png
 Exec=Ultimaker_Cura-4.5.0.AppImage
 Terminal=false
 MimeType=
@@ -154,7 +154,7 @@ Name=FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.App
 Name[da_DK]=FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.desktop
 GenericName[da_DK]=CAD-program
 Comment=FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64
-Icon=FreeCAD.png
+Icon=FreeCad_0.19.png
 Exec=FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.AppImage
 Terminal=false
 MimeType=application/x-extension-fcstd;
@@ -165,8 +165,38 @@ StartupNotify=true
 
 ## Hent Appimages filer
 ### Ultimaker_Cura-4.5.0
-
+* Åbn Firefox
+  * Skriv adressen https://ultimaker.com/software/ultimaker-cura
+    * Klik "Download for free"
+      * Vælg "Ultimaker Cura 4.5 - Linux 64 bit"
+        * Klik "Download Now"
+          * Vælg mappen "~/.local/bin"
+            * Klik "Gem"
 
 ### FreeCAD_0.19-19955
-https://github.com/FreeCAD/FreeCAD/releases/tag/0.19_pre
+* Åbn Firefox
+  * Skriv adressen https://github.com/FreeCAD/FreeCAD/releases/tag/0.19_pre
+    * Rull ned til "Development versions" 
+      * Klik "FreeCAD releases page."
+        * Rull ned til Asset 12
+          * Klik "FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.AppImage"
+            * Vælg mappen "~/.local/bin"
+              * Klik "Gem"
+* Luk Firefox når filerne er hentet
+
+## Klargør Appimages filern for drift
+### Tilpas rettigheder, tillad kørsel af filerne som et program
+* Åbn Terminal vindue [Ctrl]+[Alt]+T
+```bash
+cd ~/.local/bin
+chmod +x Ultimaker_Cura-4.5.0.AppImage
+chmod +x FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.AppImage
+
+cd ~/.local/share/applications
+chmod +x Ultimaker_Cura-4.5.0.desktop
+chmod +x FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.desktop
+```
+* luk Terminal vindue
+### Tilføj Programmerne til Favoritter
+* 
 
