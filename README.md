@@ -116,8 +116,9 @@ reboot
             * Ændre navn til "FreeCad_0.19.png"
               * klik "Gem"
 ## Opret desktop filer for AppImages filer
-* Åbn Terminal vindue [Ctrl]+[Alt]+T og skriv følgende:
 ### Ultimaker_Cura-4.5.0
+* Åbn Terminal vindue [Ctrl]+[Alt]+T og skriv følgende:
+
 ```bash
 cd ~/.local/share/applications/
 nano Ultimaker_Cura-4.5.0.desktop
@@ -141,6 +142,8 @@ StartupNotify=true
   * Tast [Ctrl]+X for afslutte derefter [J] & [Enter] for at gemme 
 
 ### FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.AppImage
+* Åbn Terminal vindue [Ctrl]+[Alt]+T og skriv følgende:
+
 ```bash
 cd ~/.local/share/applications/
 nano FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.desktop
