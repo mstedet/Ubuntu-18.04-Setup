@@ -205,8 +205,8 @@ chmod +x FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.desktop
 * Klik på Filer 
   * Klik Hjem
     * Tast [Ctrl]+ H for at vise skjulte filer
-      * Double Klik .local 
-        * Double Klik bin
+      * Double Klik - .local 
+        * Double Klik - bin
           * Højre Klik FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.AppImage
             * Vælg Kør
               * Luk programmet igen
@@ -214,21 +214,25 @@ chmod +x FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.desktop
             * Vælg Kør
               * Klik Get started
                 * Klik Agree
-                  * Klik Next
-                    * Klik Next
-                      * Vælg Add a non-networked printer
-                        * Klik Wanhao
-                          * Vælg Wanhao Duplicator 9
-                            * Klik Next
-                              * Klik Finish
-                                * Luk programmet igen
+                * Klik Next
+                * Klik Next
+                * Vælg Add a non-networked printer
+                * Klik Wanhao
+                * Vælg Wanhao Duplicator 9
+                * Klik Next
+                * Klik Finish
+                * Luk programmet igen
     * Klik .local
-      * Double Klik share
-        * Double Klik applications
-          * Højre Klik FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.
+      * Double Klik - share
+        * Double Klik - applications
+          * Højre Klik - FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.desktop
             * Klik Åbn
               * Vælg - Hav tillid til og kør 
-
+              * Luk programmet igen
+        * Højre Klik - Ultimaker_Cura-4.5.0.desktop
+            * Klik Åbn
+              * Vælg - Hav tillid til og kør 
+              * Luk programmet igen
 ## Tilpas Favoritter (Dok)
 * Klik Indstillinger
   * Vælg Dok
