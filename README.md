@@ -289,3 +289,4 @@ chmod +x FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.desktop
       * Føj til favoritter
         * Tryk [ESC] og engan til [ESC]
 * 
+For nu følg denne vejledning [Installation af Visual Studio Code (VSC) & PlatformIO :](https://github.com/sekt1953/ESP32-Seniorhus-2020-1#installation-af-visual-studio-code-vsc--platformio-)
