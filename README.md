@@ -1,7 +1,6 @@
 # Ubuntu 18.04.4 Setup
-## Her er oplysninger om installation af PC før kursus
-### Basis installation af Ubuntu
-#### NB !!! Dette vil slette alt på din hardisk !!!!!!!
+# Basis installation af Ubuntu
+## NB !!! Dette vil slette alt på din hardisk !!!!!!!
 * Hent Ubuntu Desktop 18.04.4 LTS [Download Ubuntu Desktop](https://ubuntu.com/download/desktop)
   * køren standard installation
     * Vælg :
@@ -26,7 +25,7 @@
         * Vælg et brugernavn (måske dine initialer)
         * Vælg en adgangskode
       * vent til installationen er færdig
-### Opdatering af din Ubuntu Installation
+## Opdatering af din Ubuntu Installation
 * login og start et Terminal vindue med tast kombinationen [Ctrl]+[Alt]+T
   * opdater din installation til nyeste version, ved at kopiere linier herunder en for en og indsætte den i Terminal vinduet, når du bliver spurt om password, er det det du valgte under installationen.
 ```bash
@@ -35,7 +34,7 @@ sudo apt update
 sudo apt full-upgrade -y
 sudo apt autoremove -y
 ```
-### Tilpasning af din Ubuntu installation
+## Tilpasning af din Ubuntu installation
 * Cura og FreeCad og andre programmer som vi kommer til at bruge vil vaær at typen [AppImage](https://appimage.org/), disse programmer vil vi gerne installere så dekan opstartes fra Favoritter, der for vil en velformet biblitoks struktur være en god ide
 ```
 ~/.local/  
@@ -68,12 +67,12 @@ sudo apt install -y git pinta geany* vlc python3-distutils printrun
 # giv default bruger adgang til serial port
 sudo usermod -a -G dialout $USER  
 ```
-### Genstart Nu
+## Genstart Nu
   * Det vil nu være et godt tidspunkt at genstarte sin pc skriv 
 ```bash
 reboot
 ```
-## Tilpas Mozilla-Firefox
+# Tilpas Mozilla-Firefox
 * Start nu Firefox 
   * indtast i adresselinien "google.dk" og tast [Enter]
 * Klik på Abn menu iconen
@@ -96,7 +95,17 @@ reboot
       * Sæt Mappen til "Bogmærkelinje"
         * klik Færdig
   * 
-## Hent Iconer til AppImags programmer
+# AppImages programmer
+## Filstruktur for AppImages Programmer
+```
+  ~/.local/bin
+  ~/.local/share/applications
+  ~/.local/Share/icons
+```  
+* Appimages filerne placeres i "~/.local/bin" mappen  
+* .desktop filerne placeres i "~/.local/share/applications", desktop filen er den fil der linker Appimages programmet og des icon sammen, desktop filer er også den fil som vi linker til fra favoritter.
+* Ikoner til Appimages programmerne placeres her.
+## Hent Iconer til AppImages programmer
 ### Ultimaker_Cura
 * Skriv i adresselinien https://en.wikipedia.org/wiki/Cura_(software) 
   * Højre klik Cura Icon 
@@ -116,14 +125,13 @@ reboot
             * Ændre navn til "FreeCad_0.19.png"
               * klik "Gem"
 ## Opret desktop filer for AppImages filer
-### Ultimaker_Cura-4.5.0
-* Åbn Terminal vindue [Ctrl]+[Alt]+T og skriv følgende:
+#### Ultimaker_Cura-4.5.0
+* Åbn Terminal vindue med [Ctrl]+[Alt]+T,  Åbn nu teksbehandlinge nano:
 
 ```bash
-cd ~/.local/share/applications/
-nano Ultimaker_Cura-4.5.0.desktop
+nano ~/.local/share/applications/Ultimaker_Cura-4.5.0.desktop
 ```
-Indsæt nu følgende:
+* Indsæt nu følgende:
 ```bash
 [Desktop Entry]
 Type=Application
@@ -141,14 +149,13 @@ StartupNotify=true
 ```
   * Tast [Ctrl]+X for afslutte derefter [J] & [Enter] for at gemme 
 
-### FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.AppImage
+#### FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.AppImage
 * Åbn Terminal vindue [Ctrl]+[Alt]+T og skriv følgende:
 
 ```bash
-cd ~/.local/share/applications/
-nano FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.desktop
+nano ~/.local/share/applications/FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.desktop
 ```
-Indsæt nu følgende:
+* Indsæt nu følgende:
 ```bash
 [Desktop Entry]
 Type=Application
@@ -165,8 +172,8 @@ StartupNotify=true
 ```
   * Tast [Ctrl]+X for afslutte derefter [J] & [Enter] for at gemme 
 
-## Hent Appimages filer
-### Ultimaker_Cura-4.5.0
+### Hent Appimages filer
+#### Ultimaker_Cura-4.5.0
 * Åbn Firefox
   * Skriv adressen https://ultimaker.com/software/ultimaker-cura
     * Klik "Download for free"
