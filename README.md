@@ -14,68 +14,16 @@ Her er nogle få ændringer af Firefox som jeg bruger, som Filhentning indstilli
 * Hold [Ctrl] og klik denne link [03- Tilpas Mozilla-Firefox.md](https://github.com/mstedet/Ubuntu-18.04-Setup/blob/master/03-%20Tilpas%20Mozilla-Firefox.md) for at åbne vejledning i et nyt fane blad.
 
 ## 04 - AppImages programmer
-I dette afsnit viser jeg hvordan man kan installerer Appimage programmer, oprette desktop-filer til disse programmer.  
-En af hjørne stenene i at få Appimages programmer til at fungerer er desktop-filerne her er skabelon på en "*.desktop"
-```bash
-[Desktop Entry]
-Type=Application
-Name=<navn>.desktop
-Name[da_DK]=<dansk_navn>.desktop
-GenericName=<beskrivelse>
-GenericName[da_DK]=<dansk beskrivelse>
-Comment=<komentar>
-Icon=<icon-fil-navn>.png
-Exec=<program>.AppImage
-Terminal=false
-MimeType=
-Categories=
-StartupNotify=true
-```
-Følg nu vejledningen her:
+I dette afsnit viser jeg hvordan man kan installerer Appimage programmer, oprette desktop-filer til disse programmer. En af hjørne stenene i at få Appimages programmer til at fungerer er desktop-filerne. 
 * Hold [Ctrl] og klik denne link [04 - AppImages programmer.md](https://github.com/mstedet/Ubuntu-18.04-Setup/blob/master/04%20-%20AppImages%20programmer.md) for at åbne vejledning i et nyt fane blad.
 
-
 ## 05 - Tilpas Favoritter (også kaldet Dok)
-* Klik Indstillinger
-  * Vælg Dok
-    * Sæt Ikonstørrelse til 36
-      * Luk indstillinger
-
-#### Fjern programmer fra Favoritter (Dok)
-* Højre-Klik "Mozilla Thunderbird"
-  * Klik "Fjern fra favoritter"
-* Højre-Klik "Rhytmbox"
-  * Klik "Fjern fra favoritter"
-* Højre-Klik "LibreOffice Writer"
-  * Klik "Fjern fra favoritter"
-* Højre-Klik "Ubuntu software"
-  * Klik "Fjern fra favoritter"
-* Højre-Klik "Hjælp"
-  * Klik "Fjern fra favoritter"
-
-#### Tilføj programmer til Favoritter (Dok)
-* Klik "Vis programmer" i favoritter
-  * Søg efter (f)
-    * Højre Klik FreeCad_0.19-...
-      * Vælg Føj til favoritter
-  * Søg efter (c)
-    * Højre Klik Ultimaker_Cur...
-      * Vælg Føj til favoritter
-  * Søg efter ()
-    * Højre Klik Geany
-      * Vælg Føj til favoritter
-  * Søg efter (p)
-    * Højre Klik Pinta
-      * Vælg Føj til favoritter
-    * Højre Klik Pronterface
-      * Vælg Føj til favoritter
-  * Søg efter (v)
-    * Højre Klik VLC media pla...
-      * Vælg Føj til favoritter
-  tryk [ESC] flere gange til du er ude
+Her hjælpes du igennem opsætning af Favoritter som vi vil bruge dem i undervisningen
+* Hold [Ctrl] og klik denne link []() for at åbne vejledning i et nyt fane blad.
 
 
-## Hent Visual Studio Code & PlatformIO
+## 06 - Installation af Visual Studio Code med PlatformIO 
+
 ### VSC
 * Åbn Firefox
   * Skriv adressen https://code.visualstudio.com/Download
