@@ -15,7 +15,7 @@ Her er nogle få ændringer af Firefox som jeg bruger, som Filhentning indstilli
 
 ## 04 - AppImages programmer
 I dette afsnit viser jeg hvordan man kan installerer Appimage programmer, oprette desktop-filer til disse programmer.
-* Hold [Ctrl] og klik denne link []() for at åbne vejledning i et nyt fane blad.
+* Hold [Ctrl] og klik denne link [04 - AppImages programmer.md](https://github.com/mstedet/Ubuntu-18.04-Setup/blob/master/04%20-%20AppImages%20programmer.md) for at åbne vejledning i et nyt fane blad.
 
 
 
