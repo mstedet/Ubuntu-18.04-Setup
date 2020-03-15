@@ -22,8 +22,19 @@ Her hjælpes du igennem opsætning af Favoritter som vi vil bruge dem i undervis
 * Hold [Ctrl] og klik denne link [05-Tilpas Favoritter.md](https://github.com/mstedet/Ubuntu-18.04-Setup/blob/master/05-Tilpas%20Favoritter.md) for at åbne vejledning i et nyt fane blad.
 
 ## 06 - Installation af Visual Studio Code med PlatformIO 
-
+Her gennemgår vi opsætningen af Visual Studio Code med PlatformIO, og laver de nødvendige tilpasninger så indstillinger af VSC & PlatformIO passer til vores projekt biblioteker, som vi oprettede i afsnit ## 02 - Tilpasning af din Ubuntu installation.
 * Hold [Ctrl] og klik denne link [06-Installation af Visual Studio Code med PlatformIO.md](https://github.com/mstedet/Ubuntu-18.04-Setup/blob/master/06-Installation%20af%20Visual%20Studio%20Code%20med%20PlatformIO.md) for at åbne vejledning i et nyt fane blad.
 
 ## 07 - Start et nyt Project i PlatformIO
+Her vises hvordan vi starter et projekt (ESP32_Blink) til vores ESP32 prosessor.
 * Hold [Ctrl] og klik denne link [07-Start et nyt Project i PlatformIO.md](https://github.com/mstedet/Ubuntu-18.04-Setup/blob/master/07-Start%20et%20nyt%20Project%20i%20PlatformIO.md) for at åbne vejledning i et nyt fane blad.
+
+## 08 - Github Setup
+
+## 09 - Git Setup
+
+## 10 - SSH Setup for github konto
+
+## 11 - SSH Setup for flere Github kontoer
+
+## 12 - Github kontrol fra PlatformIO
