@@ -1,101 +1,20 @@
-# Ubuntu 18.04.4 Setup
-# Basis installation af Ubuntu
-## NB !!! Dette vil slette alt på din hardisk !!!!!!!
-* Hent Ubuntu Desktop 18.04.4 LTS [Download Ubuntu Desktop](https://ubuntu.com/download/desktop)
-  * køren standard installation
-    * Vælg :
-      * Velkommen : 
-        * Dansk installation
-        * Installer ubuntu
-      * Tastaturlayout:
-        * Dansk
-        * Dansk - Dansk (win-taster)
-      * Opdateringer og andre programmer
-        * Nomal Installation
-        * Hent opdateringer mens Ubuntu installeres
-        * Installer tredjepartsprogrammer til grafik og wi-fi-hardware og ydeliger mediaformater
-      * Installationstype
-        * Slet disk og installer Ubuntu
-        * Installer Nu
-      * Hvor befinder du dig
-        * Copenhagen
-      * Hvem er du
-        * Dit navn
-        * Navnet på din computer (det er det navn du ønsker at kalde din computer, hold det kort)
-        * Vælg et brugernavn (måske dine initialer)
-        * Vælg en adgangskode
-      * vent til installationen er færdig
-## Opdatering af din Ubuntu Installation
-* login og start et Terminal vindue med tast kombinationen [Ctrl]+[Alt]+T
-  * opdater din installation til nyeste version, ved at kopiere linier herunder en for en og indsætte den i Terminal vinduet, når du bliver spurt om password, er det det du valgte under installationen.
-```bash
-# opdater din linux
-sudo apt update
-sudo apt full-upgrade -y
-sudo apt autoremove -y
-```
-## Tilpasning af din Ubuntu installation
-* Cura og FreeCad og andre programmer som vi kommer til at bruge vil vaær at typen [AppImage](https://appimage.org/), disse programmer vil vi gerne installere så dekan opstartes fra Favoritter, der for vil en velformet biblitoks struktur være en god ide
-```
-~/.local/  
-~/.local/bin/*.AppImage    
-~/.local/share/  
-~/.local/share/applications/*.desktop  
-~/.local/share/icons/*.png  
-```
-  * Opret manglende biblioteker for Appimages programmer
-```bash
-# opret directory til dine bin filer
-mkdir -p ~/.local/bin
-mkdir -p ~/.local/share/icons
-PATH="$PATH:$HOME/bin"
-```
-  * Vi vil også oprette bibliteks struktur for vores arbejdsfiler
-```bash
-# opret mappe til projecter
-mkdir -p ~/Dokumenter/GitHub/
-mkdir -p ~/Dokumenter/FreeCad/
-mkdir -p ~/Dokumenter/ESP32/
-mkdir -p ~/Dokumenter/Hypercube/
-```
-  * Insstallation sf nyttige værktøjer
-```bash
-sudo apt install -y git pinta geany* vlc python3-distutils printrun
-```
-  * Vi får brug for at kunne tilgå vores seriale porte 
-```bash
-# giv default bruger adgang til serial port
-sudo usermod -a -G dialout $USER  
-```
-## Genstart Nu
-  * Det vil nu være et godt tidspunkt at genstarte sin pc skriv 
-```bash
-reboot
-```
-# Tilpas Mozilla-Firefox
-* Start nu Firefox 
-  * indtast i adresselinien "google.dk" og tast [Enter]
-* Klik på Abn menu iconen
-    * Vælg indstillinger
-      * Klik Generelt
-        * Filer og programmer
-          * Filhentning
-            * Vælg "Spørg mig altid, hvor filer skal gemmes"
-      * Klik Hjem
-        * Sæt "Startside og nye vinduer" til "Tilpassede URL'er..."
-          * Vælg "Andvend nuværende side"
-* Luk Indstillinger
-* Abn nyt faneblad
-  * Skriv i adresselinien https://github.com/mstedet
-    * Klik Stjernen 
-      * Sæt Mappe: til "Bogmærkelinje"
-        * klik Færdig
-  * Skriv i adresselinien https://github.com/sekt1953
-    * Klik Stjernen 
-      * Sæt Mappen til "Bogmærkelinje"
-        * klik Færdig
-  * 
-# AppImages programmer
+# Ubuntu 18.04.4 Installation og setup for undervisning
+
+## 01 - Basic Installation af Ubuntu
+Denne del at vejledningen, forventer at du har en Blank PC, eller en PC hvor alt indhold kan over skrives   
+NB!!! følger du denne vejledning vil din disk blive slettet, og kan ikke gendannes !!!
+* Hold [Ctrl] og klik denne link [01-Basis installation af Ubuntu 18.04.4 LTS](https://github.com/mstedet/Ubuntu-18.04-Setup/blob/master/01-Basis%20installation%20af%20Ubuntu.md) for at åbne vejledning i et nyt fane blad.
+
+## 02 - Tilpasning af din Ubuntu installation
+I dette afsnit tilpasser vi Biblioteks strukturen for [AppImage](https://appimage.org/), Opretter Biblioteker til projekter, og installerer en række nyttige værktøjer, som vi kan få brug for i vores undervisning. Vi tager også hånd om at tildele rettigerheder.
+* Hold [Ctrl] og klik denne link [02-Tilpasning af din Ubuntu installation.md](https://github.com/mstedet/Ubuntu-18.04-Setup/blob/master/02-Tilpasning%20af%20din%20Ubuntu%20installation.md) for at åbne vejledning i et nyt fane blad.
+
+## 03 - Tilpas Mozilla-Firefox
+Her er nogle få ændringer af Firefox som jeg bruger, som Filhentning indstillinger, Startside, Bogmærker og Udvidelser.
+* Hold [Ctrl] og klik denne link [03- Tilpas Mozilla-Firefox.md](https://github.com/mstedet/Ubuntu-18.04-Setup/blob/master/03-%20Tilpas%20Mozilla-Firefox.md) for at åbne vejledning i et nyt fane blad.
+
+## 04 - AppImages programmer
+
 ## Filstruktur for AppImages Programmer
 ```
   ~/.local/bin
