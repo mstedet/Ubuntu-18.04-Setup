@@ -1,14 +1,23 @@
 # 04 - AppImages programmer
-
 ## Filstruktur for AppImages Programmer
 ```
   ~/.local/bin
   ~/.local/share/applications
   ~/.local/Share/icons
 ```  
+* Har du fulgt afsnit [02-Tilpasning af din Ubuntu installation.md](https://github.com/mstedet/Ubuntu-18.04-Setup/blob/master/02-Tilpasning%20af%20din%20Ubuntu%20installation.md) har du allerede oprette denne fil struktur.  
+* Opret manglende biblioteker for Appimages programmer, 
+kopiere linier herunder en for en og indsætte den i Terminal vinduet:
+```bash
+# opret directory til dine bin filer
+mkdir -p ~/.local/bin
+mkdir -p ~/.local/share/icons
+PATH="$PATH:$HOME/bin"
+```
 * Appimages filerne placeres i "~/.local/bin" mappen  
 * .desktop filerne placeres i "~/.local/share/applications", desktop filen er den fil der linker Appimages programmet og des icon sammen, desktop filer er også den fil som vi linker til fra favoritter.
 * Ikoner til Appimages programmerne placeres her.
+
 ## Hent Iconer til AppImages programmer
 ### Ultimaker_Cura
 * Skriv i adresselinien https://en.wikipedia.org/wiki/Cura_(software) 
@@ -28,10 +37,10 @@
           * Vælg mappen "~/.local/share/icons/
             * Ændre navn til "FreeCad_0.19.png"
               * klik "Gem"
-## Opret desktop filer for AppImages filer
-#### Ultimaker_Cura-4.5.0
-* Åbn Terminal vindue med [Ctrl]+[Alt]+T,  Åbn nu teksbehandlinge nano:
 
+## Opret desktop filer for AppImages filer
+### Ultimaker_Cura-4.5.0
+* Åbn Terminal vindue med [Ctrl]+[Alt]+T,  Åbn nu teksbehandlinge nano:
 ```bash
 nano ~/.local/share/applications/Ultimaker_Cura-4.5.0.desktop
 ```
@@ -53,7 +62,7 @@ StartupNotify=true
 ```
   * Tast [Ctrl]+X for afslutte derefter [J] & [Enter] for at gemme 
 
-#### FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.AppImage
+### FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.AppImage
 * Åbn Terminal vindue [Ctrl]+[Alt]+T og skriv følgende:
 
 ```bash
@@ -76,8 +85,8 @@ StartupNotify=true
 ```
   * Tast [Ctrl]+X for afslutte derefter [J] & [Enter] for at gemme 
 
-### Hent Appimages filer
-#### Ultimaker_Cura-4.5.0
+## Hent Appimages filer
+### Ultimaker_Cura-4.5.0
 * Åbn Firefox
   * Skriv adressen https://ultimaker.com/software/ultimaker-cura
     * Klik "Download for free"
@@ -98,10 +107,6 @@ StartupNotify=true
               * Vælg mappen "~/.local/bin"
                 * Klik "Gem"
 * Luk Firefox når filerne er hentet
-
-
-
-
 
 ## Klargør Appimages filern for drift
 ### Tilpas rettigheder, tillad kørsel af filerne som et program
@@ -148,3 +153,4 @@ chmod +x FreeCAD_0.19-19955-Linux-Conda_glibc2.12-x86_64.desktop
             * Klik Åbn
               * Vælg - Hav tillid til og kør 
               * Luk programmet igen
+  

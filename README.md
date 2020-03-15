@@ -14,16 +14,28 @@ Her er nogle få ændringer af Firefox som jeg bruger, som Filhentning indstilli
 * Hold [Ctrl] og klik denne link [03- Tilpas Mozilla-Firefox.md](https://github.com/mstedet/Ubuntu-18.04-Setup/blob/master/03-%20Tilpas%20Mozilla-Firefox.md) for at åbne vejledning i et nyt fane blad.
 
 ## 04 - AppImages programmer
-I dette afsnit viser jeg hvordan man kan installerer Appimage programmer, oprette desktop-filer til disse programmer.
+I dette afsnit viser jeg hvordan man kan installerer Appimage programmer, oprette desktop-filer til disse programmer.  
+En af hjørne stenene i at få Appimages programmer til at fungerer er desktop-filerne her er skabelon på en "*.desktop"
+```bash
+[Desktop Entry]
+Type=Application
+Name=<navn>.desktop
+Name[da_DK]=<dansk_navn>.desktop
+GenericName=<beskrivelse>
+GenericName[da_DK]=<dansk beskrivelse>
+Comment=<komentar>
+Icon=<icon-fil-navn>.png
+Exec=<program>.AppImage
+Terminal=false
+MimeType=
+Categories=
+StartupNotify=true
+```
+Følg nu vejledningen her:
 * Hold [Ctrl] og klik denne link [04 - AppImages programmer.md](https://github.com/mstedet/Ubuntu-18.04-Setup/blob/master/04%20-%20AppImages%20programmer.md) for at åbne vejledning i et nyt fane blad.
 
 
-
-
-
-
-
-## Tilpas Favoritter (Dok)
+## 05 - Tilpas Favoritter (også kaldet Dok)
 * Klik Indstillinger
   * Vælg Dok
     * Sæt Ikonstørrelse til 36
