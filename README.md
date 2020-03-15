@@ -22,5 +22,5 @@ Her hjælpes du igennem opsætning af Favoritter som vi vil bruge dem i undervis
 * Hold [Ctrl] og klik denne link [05 - Tilpas Favoritter.md](https://github.com/mstedet/Ubuntu-18.04-Setup/blob/master/05%20-%20Tilpas%20Favoritter.md) for at åbne vejledning i et nyt fane blad.
 
 ## 06 - Installation af Visual Studio Code med PlatformIO 
-* Hold [Ctrl] og klik denne link []() for at åbne vejledning i et nyt fane blad.
+* Hold [Ctrl] og klik denne link [06 - Installation af Visual Studio Code med PlatformIO.md](https://github.com/mstedet/Ubuntu-18.04-Setup/blob/master/06%20-%20Installation%20af%20Visual%20Studio%20Code%20med%20PlatformIO.md) for at åbne vejledning i et nyt fane blad.
 
