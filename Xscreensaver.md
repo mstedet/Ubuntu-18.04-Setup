@@ -24,6 +24,6 @@ xscreensaver-demo
  ![IndstillingerForOpstartsprogrammer](/Images/IndstillingerForOpstartsprogrammer.png)
 * Vælg Tilføj  
    ![Tilføj](/Images/Tilføj.png)
-* Ufyls skema og tryk Tilføj
+* Udfyld skema som vist og Tryk [Tilføj]
  
 
