@@ -1,4 +1,7 @@
 # Ubuntu 18.04.4 Installation og setup for undervisning
+## [The mind behind Linux | Linus Torvalds](https://www.youtube.com/watch?v=o8NPllzkFhE)
+## [Tech Talk: Linus Torvalds on git](https://www.youtube.com/watch?v=4XpnKHJAok8)
+
 
 ## 01 - Basic Installation af Ubuntu
 Denne del at vejledningen, forventer at du har en Blank PC, eller en PC hvor alt indhold kan over skrives   
