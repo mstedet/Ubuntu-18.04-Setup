@@ -17,6 +17,16 @@ sudo apt-get remove gnome-screensaver
 
 xscreensaver-demo
 ```
+## Configure XScreenSaver
+* Vælg fanebladet "Skærmtilstande"
+  * Sæt Tilstand til : Only One Screen Saver
+  * Sæt Screen Saver til : GLSlideshow
+  * Sæt Start efter til : 1 min
+  * Sæt Gentag efter til : 1 min
+* Vælg fanebladet "Avanceret"
+  * Select : Benyt Skrivebordsbilleder
+  * Select : Vælg tilfældigt billed
+  * Indtast sti til dine billeder
 
 ## Starting xscreensaver from login
 
