@@ -43,3 +43,13 @@ Her vises hvordan vi starter et projekt (ESP32_Blink) til vores ESP32 prosessor.
 ## 12 - Github kontrol fra PlatformIO
 
 ## 13 - Git & GitHub med PlatformIO
+
+## Ubuntu 20.04 Extra
+Når du installerer Ubuntu 20.04 vil det være en god idea at åbne en terminal og tilføje følgnde kommandoer
+```
+sudo dpkg --configure -a  # får mDNS til at virke
+sudo apt-get update       # opdaterer index
+sudo apt-get upgrade -y   # opgraderer 
+sudo apt-get autoremove   # fjerner programmer der ikke bruges længere
+```
+
